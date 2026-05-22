@@ -22,6 +22,7 @@ export interface CurrentWeather {
   vis_km: number;
   uv: number;
   gust_kph: number;
+  gust_mph: number;
   chance_of_rain: number;
   chance_of_snow: number;
 }
